@@ -1,0 +1,454 @@
+
+html{
+  scroll-behavior: smooth;
+}
+
+/* CSS Resets */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: #e76f51;
+}
+
+a:hover{
+  color: #000000;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 25px 50px;
+  background-color: #fcfcfc;
+  gap: 5%;
+}
+
+nav a{
+  color: #e76f51;
+  transition: 0,3s;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover{
+  color: #000000;
+}
+
+nav ul{
+  display: flex;
+  gap: 10%;
+  margin-right: 10%;
+}
+
+nav ul li{
+  font-weight: bolder;
+}
+
+.burger-menu{
+  color: #e76f51;
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
+#justMarianneLogo{
+  width: 50%;
+  height: 50%;
+}
+
+.myLogo{
+  width: 65%;
+  display: flex;
+  position: sticky;
+  margin-left: 72%;
+  margin-top: -310%;
+  margin-bottom: 1%;
+  background-color: transparent;  
+}
+
+.myLogoGray{
+  width: 85%;
+  margin-left: -35%;
+  margin-top: 50%;
+  transform: rotate(90deg);
+  background-color: transparent;
+}
+
+.myLogoGray2{
+  width: 85%;
+  margin-left: 50%;
+  margin-bottom: 1%;
+  transform: rotate(-90deg);
+  background-color: transparent;
+}
+
+
+.me{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4%;
+  max-width: 58%;
+  margin-left: 19%;
+  margin-bottom: 5%;
+  margin-top: -5%;
+}
+
+.me img{
+  width: 40%;
+  margin-left: 8%;
+  margin-top: 33%;
+  box-shadow: 8px 1px 11px -3px #8b8eaf;
+  border-radius: 70%;
+  z-index: 1;
+}
+
+.bio{
+  width: 50%;
+  padding: 10px;
+  margin-top: 10%;
+  margin-left: 1%;
+  background-color: transparent;
+}
+
+.moreBio{
+  width: 40%;
+  padding: 10px;
+  margin-top: -18%;
+  margin-bottom: 10%;
+  margin-left: 50%;
+}
+
+.bio p, .bio h2{
+  line-height: 1.7rem;
+  padding: 3px;
+  background-color: transparent;
+}
+
+.moreAboutMe{
+  padding: 2px 120px;
+}
+
+.bio h2, .moreAboutMe h2{
+  margin-bottom: 2%;
+  text-align: left;
+}
+
+.moreAboutMe p{
+  line-height: 1.7rem;
+  padding: 3px;
+}
+
+.contact{
+  margin-top: 5%;
+}
+
+.contact h2{
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.socials{
+ /* display: flex;
+  flex-direction: row;*/
+  position: static;
+  right: 11%;
+  bottom: 11%;
+  background-color: transparent;
+}
+
+.socicon{
+  width: 2%;
+  height: 1%;
+  margin-left: 48%;
+}
+
+#phoneTextArea, #emailTextArea{
+  font-family: 'Roboto', sans-serif;
+  color: #e76f51;
+  display: none;
+}
+
+div#emailTextArea{
+  margin-left: 51%;
+  margin-top: -2%;
+}
+
+div#phoneTextArea{
+  margin-left: 51%;
+  margin-bottom: -1%;
+}
+
+footer{
+  padding: 20px;
+  text-align: center;
+  margin: 5% 0 0;
+}
+
+.scroll-up{
+  position: fixed;
+  right: 4.5%;
+  bottom: 3%;
+  cursor: pointer;
+}
+
+.up-arrow{
+  width: 100%;
+}  
+  
+.skills{
+  max-width: 60%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.skill-header{
+  margin-bottom: 10px;
+}
+
+.skills-wrapper img{
+  padding: 1px;
+  border: 2px solid #e76f51;
+}
+
+.icon{
+  width: 10%;
+  height: 10%;
+}
+
+.icon-card{
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding: 20px;
+  margin: 10px;
+}  
+
+.icon2{
+  width: 23%;
+  height: 35%;
+  transition: -webkit-transform 0.25s ease;
+}
+
+.icon2:active, .icon3:active{
+  -webkit-transform: scale(4);
+}
+
+.icon3{
+  width: 35%;
+  height: 25%;
+  transition: -webkit-transform 0.25s ease;
+}
+
+.second-set{
+  margin-bottom: 5%;
+}
+
+.third-set{
+  margin-top: 2%;
+  margin-left: -5%;
+  background-color: transparent;
+}
+
+.fourth-set{
+  margin-right: 5%;
+  margin-top: 5%;
+  background-color: transparent;
+}
+
+.projects{
+  background-color: #fcfcfc;
+  padding: 32px 0;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.project-pic{
+  width: 65%;
+  height: 60%;
+}
+
+.projects-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title{
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.project-container{
+  text-align: center;
+  width: 25%;
+  padding: 1px;
+}
+
+.project-container p{
+  padding: 1px;
+}
+
+.project-title{
+  margin-bottom: 2%;
+}
+
+.project-details{
+  margin-bottom: 1%;
+}
+
+.project-card{
+  background-color: #ffffff;
+  border-radius: 11px;
+  padding: 20px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 720px){
+  /*changes reflects on screen with a width of 720px and below*/
+
+  nav{
+      padding: 25px 15px;
+  }
+
+  nav ul{
+    position: fixed;
+    background-color:  #e76f51;
+    flex-direction: column;
+    top: 86px;
+    left: 10%;
+    width: 80%;
+    text-align: center;
+    transform: translateX(120%);
+    transition: transform 0.5s ease-in;
+  }
+
+  nav ul li{
+    margin: 8px;
+  }
+
+  nav a{
+    color: #ffffff;
+  }
+
+  .burger-menu{
+    display: block;
+  }
+
+  nav ul.show{
+    transform: translateX(0);
+  }
+
+  .me{
+    margin-top: 5%;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .me img{
+    height: 35%;
+    width: 50%;
+    z-index: -1;
+  }
+
+  .bio{
+    margin-top: 5%;
+    width: 90%;
+  }
+
+  .myLogo{
+    width: 100%;
+  }
+
+  .myLogoGray{
+    margin-left: -33%;
+  }
+
+  .myLogoGray2{
+    z-index: -1;
+  }
+
+  .moreBio{
+    margin-top: 2%;
+    padding: 10px 0;
+    width: 100%;
+    margin-left: -1%;
+  }
+
+  .moreAboutMe h2{
+    text-align: left;
+  }
+
+  .moreAboutMe p{
+    text-align: justify;
+  }
+
+  .icon{
+    width: 20%;
+    height: 20%;
+  }
+
+  .projects-container{
+    flex-direction: column;
+  }
+
+  .project-container{
+    width: 60%;
+  }
+
+  .socicon{
+    width: 15%;
+    height: 15%;
+    margin-left: 41%;
+  }
+
+  .up-arrow{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 420px){
+  /*changes reflects on screen with a width of 720px and below*/
+
+  .moreBio img{
+    height: 37.5rem;
+    width: 23rem;
+  }
+
+  .bio{
+    width: 18.3rem;
+  }
+
+  .project-container{
+    width: 17.875rem;
+  }
+
+  .contact-form-container{
+    max-width: 17.75rem;
+  }
+
+
+} 
+
+
+
+  

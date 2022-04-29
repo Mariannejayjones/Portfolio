@@ -1,0 +1,66 @@
+body{ 
+	background-color: #ffffff;
+}
+
+nav a{
+	color: #000000;
+	margin: 5px;
+	padding: 10px;
+	text-decoration: none;
+	display: inline-block;
+	width: 10%;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+
+a:hover{
+	color: #e76f51;
+}
+
+a:active{
+	color: #e76f51;
+}
+
+img{
+  display: block;
+  margin-left: 28%;
+  margin-top: 12%;
+  width: 50%;
+}
+
+ul{
+	list-style: none;
+}
+  
+.aboutBtn{
+	margin-left: 37%;
+  margin-top: -33%;
+  color: #000000;
+}
+
+.projectsBtn{
+  margin-left: 20%;
+  margin-top: 12%;
+  color: #000000;
+}
+
+.contactsBtn{
+  margin-left: 60%;
+  margin-top: 12%;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
